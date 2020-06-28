@@ -1,4 +1,4 @@
-# apimate README
+# EasyAPI README
 
 ## Features
 
@@ -9,7 +9,7 @@
 
 - Type "Get API List" to start the extension. An Input bar will show up. Choose the category you want to look for.
 
-- A new file "APIlist.json" will be created that will include the different APIs that can be found under that category.
+- A new file "APIlist.json" will be created that will include the different APIs that can be found under that category. You can also change the file name by entering the name in the input box that pops up. Example: "Business, business" would make a file named business.json and have information about Business related APIs in it.
 
 - Type the command again and choose a different category to get other APIs.
 

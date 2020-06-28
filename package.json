@@ -5,8 +5,11 @@
   "author": {
     "name": "Himanshu Jain"
   },
+  "license": {
+    "url": "https://github.com/himanshukj17122000/APIs-Vscode-Extension/blob/master/LICENSE"
+  },
   "description": "Get Top APIs in a particular category while working on your project",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "icon": "icon.png",
   "engines": {
     "vscode": "^1.46.0"
