@@ -1,65 +1,28 @@
 # apimate README
 
-This is the README for your extension "apimate". After writing up a brief description, we recommend including the following sections.
-
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- Uses a custom backend to scrape data and generate results. Anyone looking for an API to use can use this extension to look up
+  APIs related to a category.
 
-For example if there is an image subfolder under your extension project workspace:
+- After installing the extension, try Command+Shift+P (Mac) or Control+Shift+P (Windows) to use the extension.
 
-\!\[feature X\]\(images/feature-x.png\)
+- Type "Get API List" to start the extension. An Input bar will show up. Choose the category you want to look for.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+- A new file "APIlist.json" will be created that will include the different APIs that can be found under that category.
 
-## Requirements
+- Type the command again and choose a different category to get other APIs.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- The document would include the name, description and website of the API so that anyone looking for help can read more about the API.
 
-## Extension Settings
+- A JSON parser extension is recommended to view the information properly.
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
+- The extension allows people to look fore more than 1000 APIs!
 
 ## Release Notes
-
-Users appreciate release notes as you update your extension.
 
 ### 1.0.0
 
 Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**
